@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: 'General sans', sans-serif;
+    width: 100dvw;
+    background-color: '#dfdff0';
+    overflow-x: hidden;
+}
+
 @layer base{
     @font-face {
         font-family: 'circular-web';
